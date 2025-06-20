@@ -2,6 +2,8 @@ from typing import Dict
 
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
+from app.services.embed_docs import generate_response
+from app.services.Agentic_rag2 import graph
 
 
 app = FastAPI()
@@ -14,7 +16,7 @@ users_db: Dict[str, Dict[str, str]] = {
     "Sam": {"password": "financepass", "role": "finance"},
     "Peter": {"password": "pete123", "role": "engineering"},
     "Sid": {"password": "sidpass123", "role": "marketing"},
-    "Natasha": {"passwoed": "hrpass123", "role": "hr"}
+    "Natasha": {"password": "hrpass123", "role": "hr"}
 }
 
 
@@ -43,4 +45,33 @@ def test(user=Depends(authenticate)):
 # Protected chat endpoint
 @app.post("/chat")
 def query(user=Depends(authenticate), message: str = "Hello"):
-    return "Implement this endpoint."
+    username=user['username']
+    role=user['role']
+    role = role.lower()
+    state={
+        'question': message,
+        'user_role': role,
+        "iteration": 0,
+        "has_access":"",
+        "context": [],
+        "response": "",
+        "final_response": "",
+    }
+    result=graph.invoke(state)
+    # Compose response and document references
+    response = result.get("response", "User has no access to this document or question.")
+    # Extract document references if present
+    doc_info = []
+    for doc in result.get("context", []):
+        if hasattr(doc, 'metadata'):
+            info = {
+                "filename": doc.metadata.get('filename', ''),
+                "file_path": doc.metadata.get('file_path', ''),
+                "page_number": doc.metadata.get('page_number', None)
+            }
+            doc_info.append(info)
+    print("Document Info:", doc_info)
+    
+    if(response is None or response == ""):
+        response = f"User with role {role} has no access to this data."
+    return {"response": response, "document_references": doc_info}
