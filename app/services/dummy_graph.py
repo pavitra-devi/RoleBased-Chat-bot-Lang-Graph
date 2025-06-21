@@ -4,7 +4,7 @@ from langchain_core.messages import AnyMessage
 from typing import TypedDict, Any, Annotated
 from langchain.chat_models import init_chat_model
 import os
-os.environ['GOOGLE_API_KEY'] = os.getenv("GOOGLE_API_KEY", "AIzaSyCZt0Vrqv69IfvgzPId4WB_KpnIUIf8fJk")
+os.environ['GOOGLE_API_KEY'] = os.getenv("GOOGLE_API_KEY")
 
 # Model and embeddings
 model = init_chat_model("gemini-2.0-flash", model_provider="google_genai")
