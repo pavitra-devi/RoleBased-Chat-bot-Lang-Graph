@@ -10,7 +10,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VECTOR_STORE_PATH = os.path.join(BASE_DIR, "vector_store_new")
 print("Vector Store Path:", VECTOR_STORE_PATH)
 
-os.environ['GOOGLE_API_KEY']=os.getenv("GOOGLE_API_KEY","AIzaSyCZt0Vrqv69IfvgzPId4WB_KpnIUIf8fJk")
+os.environ['GOOGLE_API_KEY']=os.getenv("GOOGLE_API_KEY")
 model = init_chat_model("gemini-2.0-flash", model_provider="google_genai")
 #defining the embedding model
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
