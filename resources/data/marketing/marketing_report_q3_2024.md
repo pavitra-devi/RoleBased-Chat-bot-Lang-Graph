@@ -2,7 +2,7 @@
 
 ## Executive Summary
 Q3 2024 marked a strategic focus on deepening customer loyalty and expanding our footprint in Latin American markets. This report outlines the marketing initiatives, performance metrics, and strategic objectives that drove our efforts during the quarter. By prioritizing customer retention, forging new merchant partnerships, and enhancing brand visibility through localized campaigns, we achieved significant progress toward our goals while laying a strong foundation for Q4.
-
+ 
 ## Q3 - Marketing Overview
 In Q3 2024, our marketing strategy revolved around two key priorities: strengthening customer retention to ensure long-term loyalty and penetrating Latin American markets to diversify our customer base. Key initiatives included:
 
