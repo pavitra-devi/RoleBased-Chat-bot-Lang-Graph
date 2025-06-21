@@ -24,7 +24,7 @@ from langgraph.graph import StateGraph, add_messages
 # Set up paths and environment
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VECTOR_STORE_PATH = os.path.join(BASE_DIR, "vector_store")
-os.environ['GOOGLE_API_KEY'] = os.getenv("GOOGLE_API_KEY", "AIzaSyCZt0Vrqv69IfvgzPId4WB_KpnIUIf8fJk")
+os.environ['GOOGLE_API_KEY'] = os.getenv("GOOGLE_API_KEY")
 MAX_ITERATIONS = 3
 
 # Model and embeddings
