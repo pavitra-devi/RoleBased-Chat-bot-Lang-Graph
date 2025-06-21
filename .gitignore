@@ -12,3 +12,6 @@ wheels/
 *.lock
 resources/vectorstore
 .env
+vector_store
+
+
