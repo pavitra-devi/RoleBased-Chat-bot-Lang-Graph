@@ -2,7 +2,7 @@
 
 ## Executive Summary
 Q1 2024 marked a foundational quarter for FinNova, as we focused on building robust marketing infrastructure to support aggressive expansion and enhance customer acquisition channels. This report details our marketing strategies, performance metrics, and strategic objectives, emphasizing our efforts to expand into Europe, launch the InstantPay feature, and boost social media engagement. With a $2 million marketing spend, we achieved significant milestones, setting a strong trajectory for the remainder of 2024.
-
+ 
 ## Q1 - Marketing Overview
 In Q1 2024, FinNova prioritized establishing a scalable framework for growth, with a focus on strengthening customer acquisition channels and enhancing brand visibility. Key initiatives included:
 

@@ -105,3 +105,4 @@ if st.session_state["auth"]:
                 st.markdown(f'<div class="ref-box">📄 <b>{ref["filename"]}</b> (Page {ref.get("page_number", "?")})<br><span style="color:#888;font-size:0.95em">{ref["file_path"]}</span></div>', unsafe_allow_html=True)
 else:
     st.markdown('<div style="text-align:center; margin-top: 3em; color: #888;">Please login from the left sidebar to start chatting.</div>', unsafe_allow_html=True)
+    

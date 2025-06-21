@@ -4,6 +4,7 @@ Executive Summary:
 -------------------------------------------
 2024 marked a year of both opportunity and challenge for FinSolve Technologies. Despite a robust revenue increase, we saw significant pressure in certain expense categories, notably vendor-related costs and software subscriptions. However, these pressures were balanced by cost-saving measures in operational efficiency, strong gross margin performance, and strategic investment in growth areas. The company is well-positioned to continue scaling its core offerings, but focused attention on cost optimization will be essential for maintaining profitability in the coming years.
 
+
 Year-Over-Year (YoY) Analysis:
 -------------------------------------------
 FinSolve Technologies's revenue grew by 25% in 2024, driven largely by the global expansion of its services, especially in Asia and Europe. This was accompanied by a 10% increase in vendor-related expenses, impacting overall profit margins. While gross profit increased by 25%, reflecting higher operational efficiency, **net income** saw a more modest increase of 12%. This suggests that while revenue growth is strong, controlling vendor costs and maintaining healthy cash flows remain key to long-term profitability.

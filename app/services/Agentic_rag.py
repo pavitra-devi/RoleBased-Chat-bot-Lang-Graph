@@ -172,6 +172,7 @@ GENERATE_PROMPT = (
 )
 
 
+
 def generate_answer(state: MessagesState):
     """Generate an answer."""
     question = state["messages"][0].content

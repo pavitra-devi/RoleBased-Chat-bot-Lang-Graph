@@ -39,6 +39,7 @@ ROLE_MAPPING = {
     "general": {"allowed_roles": ["general", "c-level"]},
 }
 
+
 class AgentState(TypedDict):
     user_role: str
     question: str

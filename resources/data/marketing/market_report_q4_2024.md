@@ -5,7 +5,7 @@ The Q4 2024 marketing efforts were pivotal in solidifying our market position, e
 
 ## Q4 - Marketing Overview
 In Q4 2024, our marketing strategy centered on three core pillars: finalizing market penetration in key demographics, fostering stronger customer relationships through personalized engagement, and laying the groundwork for sustained growth in 2025. Key initiatives included:
-
+ 
 - **Targeted Campaigns**: Launched multi-channel campaigns across digital, social media, and traditional platforms to capture end-of-year demand.
 - **Customer Engagement**: Enhanced customer loyalty programs and introduced personalized offers to boost retention.
 - **Market Expansion**: Strengthened our B2B marketing efforts to increase enterprise client acquisition, particularly in the technology and finance sectors.

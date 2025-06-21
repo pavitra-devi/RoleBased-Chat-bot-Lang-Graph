@@ -75,3 +75,4 @@ def query(user=Depends(authenticate), message: str = "Hello"):
     if(response is None or response == ""):
         response = f"User with role {role} has no access to this data."
     return {"response": response, "document_references": doc_info}
+

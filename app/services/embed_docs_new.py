@@ -28,6 +28,7 @@ MAX_ITERATIONS = 3
 model = init_chat_model("gemini-2.0-flash", model_provider="google_genai")
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
+
 ROLE_MAPPING = {
     "engineering": {"allowed_roles": ["engineering", "c-level"]},
     "finance": {"allowed_roles": ["finance", "c-level"]},

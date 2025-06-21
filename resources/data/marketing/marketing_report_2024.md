@@ -3,7 +3,7 @@
 Executive Summary:
 -------------------------------------------
 2024 was a pivotal year for the Marketing Department at FinSolve Technologies, marked by ambitious campaigns, strategic partnerships, and a focus on increasing customer engagement across digital and physical channels. The department’s efforts resulted in a 20% increase in new customer acquisition, a 15% growth in brand awareness, and enhanced customer loyalty. Despite a competitive market environment, FinSolve Technologies's marketing initiatives proved to be cost-effective, delivering a solid return on investment (ROI) and positioning the company for further expansion.
-
+ 
 Year-Over-Year (YoY) Performance:
 -------------------------------------------
 FinSolve Technologies's marketing team saw a solid year-over-year (YoY) improvement in key performance metrics:

@@ -2,7 +2,7 @@
 
 ## Executive Summary
 Q2 2024 was a pivotal quarter dedicated to reinforcing our brand's dominance in existing markets while strategically expanding into Southeast Asia. This report details our marketing strategies, performance metrics, and strategic objectives, highlighting our efforts to drive customer acquisition, enhance engagement, and optimize marketing investments. By focusing on regional expansion, improving retargeting efforts, and leveraging influencer partnerships, we made significant strides toward our goals, setting a strong foundation for the second half of 2024.
-
+ 
 ## Q2 - Marketing Overview
 In Q2 2024, our marketing strategy centered on two primary goals: solidifying our brand's position in core markets and establishing a presence in high-growth Southeast Asian markets, including Indonesia, Thailand, and Vietnam. Key initiatives included:
 

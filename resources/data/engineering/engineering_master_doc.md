@@ -5,6 +5,7 @@
 ### 1.1 Company Overview
 FinSolve Technologies is a leading FinTech company headquartered in Bangalore, India, with operations across North America, Europe, and Asia-Pacific. Founded in 2018, FinSolve provides innovative financial solutions, including digital banking, payment processing, wealth management, and enterprise financial analytics, serving over 2 million individual users and 10,000 businesses globally.
 
+
 ### 1.2 Purpose
 This engineering document outlines the technical architecture, development processes, and operational guidelines for FinSolve's product ecosystem. It serves as a comprehensive guide for engineering teams, stakeholders, and partners to ensure alignment with FinSolve's mission: "To empower financial freedom through secure, scalable, and innovative technology solutions."
 
